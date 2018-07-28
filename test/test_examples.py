@@ -15,7 +15,6 @@
 
 ''' pytest tests '''
 
-import unittest
 import os
 import tempfile
 

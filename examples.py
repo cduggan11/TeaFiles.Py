@@ -26,6 +26,7 @@ def teadir():
 
 
 import random
+
 from teafiles import *
 
 
@@ -145,7 +146,6 @@ def gethistoricalprices(symbol, filename, startyear, startmonth, startday, endye
         line = line.decode("utf8")
         line = line.strip()
         parts = line.split(",")
-
         t = Time.parse(parts[0], "%Y-%m-%d")
         open_ = float(parts[1])
         high = float(parts[2])

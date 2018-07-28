@@ -4,6 +4,7 @@ Time Series Peristence
 ======================
 This Python package provides Time Series storage in flat files according to the **TeaFile** file format.
 
+# Hacked to make python3 compatible. Cross compatibility will be supported soon.
 
 In Use
 ======

@@ -15,10 +15,12 @@
 
 ''' pytest tests '''
 
-import tempfile
 import os
 import sys
+import tempfile
+
 from teafiles import *
+
 
 def setup_module(m):
     module = m

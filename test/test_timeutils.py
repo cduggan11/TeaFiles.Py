@@ -15,8 +15,6 @@
 
 ''' pytest tests '''
 
-import datetime
-
 from teafiles.clockwise import *
 
 
